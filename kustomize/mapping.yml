@@ -4,5 +4,6 @@ kind: Mapping
 metadata:
   name: mapping-2048
 spec:
-  prefix: /2048-game/
+  host: 2048.otogone.be
+  prefix: /
   service: "svc-2048:8000"
